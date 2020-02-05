@@ -1,0 +1,55 @@
+body{
+  font-family: 'Helvetica Neue';
+  background-color: #efefef;
+}
+
+#main{
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.header{
+  padding: 10px;
+  font-size: 110%;
+  background-color: #999;
+  color: #fff;
+}
+
+.body{
+  margin: 10px 0;
+}
+  
+  
+ul.tabs-list{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.tabs-list a{
+  text-decoration: none;
+}
+
+ul.tabs-list li{
+  list-style: none;
+  float: left;
+}
+
+ul.tabs-list li a{
+  padding: 10px;
+  background-color: #ccc;
+  border: 1px solid #333;
+  display: block;
+}
+
+ul.tabs-list li a.active{
+  background-color: white;
+}
+
+.tabs-body .tab{
+  border: 1px solid #333;
+  padding: 10px;
+}
